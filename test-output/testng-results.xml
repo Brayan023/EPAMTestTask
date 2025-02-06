@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="11" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-06T11:28:58 MST" name="Default suite" finished-at="2025-02-06T11:28:59 MST" duration-ms="1100">
+  <suite started-at="2025-02-06T16:41:36 MST" name="interviewEPAM" finished-at="2025-02-06T16:41:39 MST" duration-ms="2256">
     <groups>
     </groups>
-    <test started-at="2025-02-06T11:28:58 MST" name="Default test" finished-at="2025-02-06T11:28:59 MST" duration-ms="1100">
+    <test started-at="2025-02-06T16:41:36 MST" name="SQATestTask" finished-at="2025-02-06T16:41:39 MST" duration-ms="2256">
       <class name="interviewEPAM.SQATestTask">
-        <test-method signature="getPostByIdNegative()[pri:3, instance:interviewEPAM.SQATestTask@4d0f2471]" started-at="2025-02-06T11:28:58 MST" name="getPostByIdNegative" finished-at="2025-02-06T11:28:59 MST" duration-ms="1080" status="PASS">
+        <test-method signature="patchDataNegative()[pri:8, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="patchDataNegative" finished-at="2025-02-06T16:41:39 MST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchDataNegative -->
+        <test-method signature="postRequest()[pri:4, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="postRequest" finished-at="2025-02-06T16:41:39 MST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method signature="deleteTestPosts()[pri:9, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="deleteTestPosts" finished-at="2025-02-06T16:41:38 MST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTestPosts -->
+        <test-method signature="updateData()[pri:5, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="updateData" finished-at="2025-02-06T16:41:39 MST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateData -->
+        <test-method signature="getPostById()[pri:2, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="getPostById" finished-at="2025-02-06T16:41:39 MST" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostById -->
+        <test-method signature="updateDataNegative()[pri:7, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="updateDataNegative" finished-at="2025-02-06T16:41:38 MST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDataNegative -->
+        <test-method signature="getAllPosts()[pri:1, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="getAllPosts" finished-at="2025-02-06T16:41:39 MST" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPosts -->
+        <test-method signature="getPostByIdNegative()[pri:3, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="getPostByIdNegative" finished-at="2025-02-06T16:41:38 MST" duration-ms="1551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPostByIdNegative -->
+        <test-method signature="patchData()[pri:6, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="patchData" finished-at="2025-02-06T16:41:39 MST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchData -->
+        <test-method signature="getAllComments()[pri:0, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:36 MST" name="getAllComments" finished-at="2025-02-06T16:41:39 MST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllComments -->
+        <test-method signature="deleteTestPostsNegative()[pri:10, instance:interviewEPAM.SQATestTask@78123e82]" started-at="2025-02-06T16:41:38 MST" name="deleteTestPostsNegative" finished-at="2025-02-06T16:41:38 MST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTestPostsNegative -->
       </class> <!-- interviewEPAM.SQATestTask -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SQATestTask -->
+  </suite> <!-- interviewEPAM -->
 </testng-results>

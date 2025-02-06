@@ -1,0 +1,7 @@
+<suite name="interviewEPAM" parallel="methods" thread-count="10">
+    <test name="SQATestTask">
+        <classes>
+            <class name="interviewEPAM.SQATestTask"/>
+        </classes>
+    </test>
+</suite>
